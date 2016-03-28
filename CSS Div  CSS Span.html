@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CSS Div 與 CSS Span</title>
+	<link rel="stylesheet" type="text/css" href="css/all.css">
+</head>
+<body>
+	<div class="contain">
+		<div class="title">
+			<h1>
+				CSS Div 與 CSS Span
+			</h1>
+		</div>
+		<p>
+			<a href="http://www.1keydata.com/css-tutorial/tw/">CSS 教學</a>  <b>>  CSS Div 與 CSS Span</b>
+		</p>
+		<h2>
+			Div
+		</h2>
+		<p>
+			Div 這個標籤目的是將內容分為不同的區域，而每一個區域可以根據 CSS 中的宣告而有自己的樣式。Div 是一個區塊級容器 (block-level container)，這代表在 < /div > 標籤後會換行。
+		</p>
+		<p>
+			舉例來說，如果我們有以下的 CSS 樣式：
+		</p>
+		<p>
+			<div class="wordbg">
+				.large { <br>
+  				 &nbsp;color: #00FF00; <br>
+  				 &nbsp;font-family:arial; <br>
+  				 &nbsp;font-size: 4pt; <br>
+				}
+			</div>
+		</p>
+		<p>
+			以下的 HTML 碼，
+		</p>
+		<p>
+			<div class="wordbg">
+				< div class="large" > <br>
+  					&nbsp;這是 DIV 範例。 <br>
+				< /div > <br>				
+			</div>
+		</p>
+		<p>
+			就會顯現為，
+		</p>
+		<p>
+			<div class="large">
+				這是 DIV 範例。
+			</div>			
+		</p>
+		<h2>
+			Span
+		</h2>
+		<p>
+			Span 跟 Div 類似的地方是，這兩個標籤的目的都是將內容分為不同的區域。不同的是，Span 可以涵蓋更細層的元素。所以，我們甚至可以用 < span > 來調整單一文字的樣式。另外，在 < /span > 之後並不會換行。
+		</p>
+		<p>
+			舉例來說，如果我們有以下的 CSS 樣式：
+		</p>
+		<p>
+			<div class="wordbg">
+				.largefont { <br>
+  				 &nbsp;color: #0066FF; <br>
+  				 &nbsp;font-family:arial; <br>
+  				 &nbsp;font-size: 6px; <br>
+				}<br>
+			</div>
+		</p>
+		<p>
+			以下的 HTML 碼，
+		</p>
+		<p>
+			<div class="wordbg">
+				Span 不是< span class="largefont" >區塊級的< /span >.
+			</div>
+		</p>
+		<p>
+			就會顯現為，
+		</p>
+		<p>
+			Span 不是<span class="largefont">區塊級的.</span>
+		</p>
+	
+		<p>
+			<center>
+				下一頁：<a href="http://www.1keydata.com/css-tutorial/tw/length-units.php">CSS 長度單位</a>
+			</center>
+		</p>
+	</div>
+		<p>
+			<center>
+				Copyright © 2016 <a href="www.1keydata.com">1keydata.com</a>   版權所有
+			</center>
+		</p>
+	
+</body>
+</html>
